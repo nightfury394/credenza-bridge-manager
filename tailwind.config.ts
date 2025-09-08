@@ -27,6 +27,10 @@ export default {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -57,6 +61,31 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Dashboard specific colors
+        dashboard: {
+          bg: "hsl(var(--dashboard-bg))",
+          sidebar: "hsl(var(--sidebar-bg))",
+          "sidebar-border": "hsl(var(--sidebar-border))",
+          "sidebar-item": "hsl(var(--sidebar-item))",
+          "sidebar-item-active": "hsl(var(--sidebar-item-active))",
+        },
+        // Status colors for applications
+        status: {
+          new: "hsl(var(--status-new))",
+          qualified: "hsl(var(--status-qualified))",
+          applied: "hsl(var(--status-applied))",
+          visa: "hsl(var(--status-visa))",
+          enrolled: "hsl(var(--status-enrolled))",
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-success": "var(--gradient-success)",
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-dashboard": "var(--gradient-dashboard)",
       },
       borderRadius: {
         lg: "var(--radius)",
